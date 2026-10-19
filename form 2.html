@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bright Future Tuition Centre</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f0f8ff;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #ff9900;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bold;
+        }
+
+        .home {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .home h2 {
+            color: #003366;
+            font-size: 30px;
+        }
+
+        .courses {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .box {
+            display: inline-block;
+            background-color: white;
+            width: 200px;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        .box h3 {
+            color: #ff6600;
+        }
+
+        .contact {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bright Future Tuition Centre</h1>
+        <p>Learn Today, Lead Tomorrow!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="home" id="home">
+        <h2>Welcome to Our Tuition Centre</h2>
+        <p>We help students achieve their dreams through quality education.</p>
+        <p>Experienced Teachers | Personal Attention | Regular Tests</p>
+    </section>
+
+    
+<section class="course"id="courses">
+<div class="box">
+<h3>classes 6-9</h3>
+<label>course:</label>
+<select name="course">
+ <option>Maths</option>
+<option>science</option>
+<option>social</option>
+<option>none</option>
+</select>
+</div>
+
+
+<div class="box">
+<h3>classes 9-10</h3>
+<label>course:</label>
+<select name="course">
+ <option>Maths</option>
+<option>science</option>
+<option>social</option>
+<option>none</option>
+</select>   
+</div>
+
+     
+<div class="box">
+<h3>classes 11-12</h3>
+  <label>course:</label>
+<select name="course">
+ <option>Maths</option>
+<option>science</option>
+<option>social</option>
+<option>none</option>
+</select>   
+</div>
+</section>
+ 
+<section class="registration">
+<h2>Student registration</h2>
+<button
+onclick="showRegistration()">
+Registration form
+</button>
+<div id="registrationForm">
+<h3>Register here</h3>
+<form onsubmit="submitForm(event)">
+<input type="text"placeholder="student Name"required>
+<input type="tel"placeholder="phone number" pattern="[0-9]{10}" maxlength="10"required>
+<input type="email"placeholder="Email address"required>
+</form>
+</div>
+</section>
+
+
+
+
+         
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: Your Tuition Centre Address</p>
+        <p>Phone: +91 9876543210</p>
+        <p>Email: brightfuture@gmail.com</p>
+    </section>
+
+
+
+
+    <footer>
+        <p>&copy; 2026 Bright Future Tuition Centre</p>
+    </footer>
+</body>
+</html>
